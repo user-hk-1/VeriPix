@@ -88,12 +88,3 @@ UnivFD_Capstone3/
 ```
 
 ---
-
-## 🎓 Viva Voce Key Talking Points for Evaluators
-
-**Q1: Why use a frozen Vision Transformer instead of training a CNN from scratch?**
-> *"CNNs trained from scratch on small datasets overfit to specific image resolutions or JPEG compression artifacts. UnivFD adopts the CVPR 2023 methodology: leveraging CLIP's frozen representations pre-trained on 400M images makes the forensic probe robust to unseen diffusion generators like FLUX and Midjourney."*
-
-**Q2: How does this satisfy the Unsupervised Learning (Module 36) syllabus?**
-> *"While supervised classifiers set fixed linear boundaries, our project projects the deep features into a 2D latent space and executes Unsupervised K-Means clustering (k=2). The clusters naturally segregate authentic camera optics from generative diffusion distributions with a clean silhouette score, proving natural geometric clustering without human labels at inference time."*
-
